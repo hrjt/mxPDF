@@ -1,4 +1,4 @@
-# mxPDF - PDF Merge &amp; eXtract 
+# mxPDF - Merge &amp; eXtract tool
 Fast & Simple PDF Utility for Windows
 
 **mxPDF** is a lightweight, user-friendly Windows desktop application designed for quick PDF manipulation tasks. Whether you need to convert images to PDF, merge multiple files into a single document, or extract specific pages from existing PDFs, mxPDF provides an intuitive solution without the bloat of complex PDF editors.
@@ -15,12 +15,25 @@ Fast & Simple PDF Utility for Windows
 - Drag-and-drop or batch select files
 - Reorder pages with intuitive up/down buttons
 - Maintain quality while merging
+![Merger Tab](screenshots/merger.jpg)
+
 
 ### 📑 PDF Page Extractor
 - Extract specific pages from any PDF file
 - Flexible page selection (ranges, individual pages, or combinations)
 - Export extracted pages as separate files
 - Multiple output formats: **PDF**, **JPG**, **PNG**, **BMP**
+![Extractor Tab](screenshots/extracotr.jpg)
+  
+
+### 🖱️ Windows Shell Integration
+- Right-click context menu integration
+- Select multiple images/PDFs in Windows Explorer
+- Use **"Merge to PDF (mxPDF)"** context menu option
+- Instantly opens mxPDF with all selected files pre-loaded
+![Extractor Tab](screenshots/shellmenu.jpg)
+
+
 
 ## 🎯 Key Benefits
 
@@ -55,7 +68,20 @@ Fast & Simple PDF Utility for Windows
 
 ## 📖 Usage Guide
 
-### 🔀 Merging Images & PDFs
+### 🖱️ Quick Start with Shell Extension (Recommended)
+
+The fastest way to merge files is using the Windows Explorer context menu:
+
+1. **Select multiple images and/or PDF files** in Windows Explorer (hold Ctrl or Shift while clicking)
+2. **Right-click** on any of the selected files
+3. Choose **"Merge to PDF (mxPDF)"** from the context menu
+4. mxPDF launches automatically with all selected files pre-loaded in the Merger tab
+5. Reorder files if needed using **"Up/Down"** buttons
+6. Click **"Export PDF"** to save your merged document
+
+**This is the quickest method for everyday PDF merging tasks!**
+
+### 🔀 Merging Images & PDFs (Alternative Method)
 
 1. Launch **mxPDF.exe**
 2. Navigate to the **"Merger"** tab
@@ -103,6 +129,7 @@ Fast & Simple PDF Utility for Windows
 
 ## 💡 Tips & Tricks
 
+- **Shell Extension Shortcut:** The fastest way to merge files is to select them in Windows Explorer, right-click, and choose "Merge to PDF (mxPDF)"
 - **Batch Processing:** Select multiple files at once using Ctrl+Click or Shift+Click
 - **Page Ordering:** In the Merger tab, arrange your files in the exact order you want them to appear in the final PDF
 - **Page Selection:** Use commas and hyphens to create complex extraction patterns (e.g., `1-5, 8, 10-15, 20`)
@@ -135,7 +162,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🏷️ Keywords
 
-`pdf-tool` `pdf-merger` `pdf-converter` `image-to-pdf` `pdf-extractor` `windows-utility` `pdf-manipulation` `page-extraction` `batch-pdf` `pdf-splitter` `lightweight-pdf` `offline-pdf-tool` `free-pdf-software` `pdf-editor` `document-management` `jpg-to-pdf` `png-to-pdf` `bmp-to-pdf` `merge-pdf` `split-pdf`
+`pdf-tool` `pdf-merger` `pdf-converter` `image-to-pdf` `pdf-extractor` `windows-utility` `pdf-manipulation` `page-extraction` `batch-pdf` `pdf-splitter` `lightweight-pdf` `offline-pdf-tool` `free-pdf-software` `pdf-editor` `document-management` `jpg-to-pdf` `png-to-pdf` `bmp-to-pdf` `merge-pdf` `split-pdf` `context-menu` `shell-extension` `windows-explorer-integration` `right-click-merge`
 
 ---
 
